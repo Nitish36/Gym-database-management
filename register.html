@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<script type="text/javascript" src="scripts/register.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h2>Are u ready to </h2>
+	<h1>GET FIT, STRONG & MOTIVATED</h1>
+	<h3>Fill up the form below so as to be a member of the group</h3>
+	<div class="container">
+ 	 <form name="mygymForm" action="php/register.php" onsubmit="return validateForm()" method="post">
+    <div class="row">
+      <div class="sect1">
+        <label for="gymid">GymId</label>
+      </div>
+      <div class="sect2">
+        <input type="number" name="GymId" placeholder="Enter GymId..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="sect1">
+        <label for="FullName">FullName</label>
+      </div>
+      <div class="sect2">
+        <input type="text" name="FullName" placeholder="Enter Full Name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="sect1">
+        <label for="Age">Age</label>
+      </div>
+      <div class="sect2">
+        <input type="number" name="Age" placeholder="Enter Number..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="sect1">
+        <label for="DateOfJoining">Date Of Joining</label>
+      </div>
+      <div class="sect2">
+        <input type="date" name="DateOfJoining" placeholder="Enter Date Of Joining..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="sect1">
+        <label for="Email">Email</label>
+      </div>
+      <div class="sect2">
+        <input type="email" name="Email" placeholder="Enter Email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="sect1">
+        <label for="PhoneNumber">PhoneNumber</label>
+      </div>
+      <div class="sect2">
+        <input type="number" name="PhoneNumber" placeholder="Enter Phone number.." max="10">
+      </div>
+    </div>
+    <div class="row">
+      <div class="sect1">
+        <label>Gender</label>
+      </div>
+      <div class="sect2">
+        <input type="radio" value="male" name="Gender" id="male"><label for="male">Male</label>
+		<input type="radio" value="female" name="Gender" id="female"><label for="female">Female</label>
+      </div>
+    </div>
+    <button class="button">
+ 	  <span class="text">Submit</span>
+	</button>
+</form>
+</div>
+	
+</body>
+</html>

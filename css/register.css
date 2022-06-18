@@ -1,0 +1,114 @@
+*
+{
+	font-family: "Trebuchet MS"
+}
+body
+{
+	background-color: #111;
+	color: #fff;
+}
+h1
+{
+	text-align: center;
+	font-size: 2rem;
+}
+h2
+{
+	font-size: 1.6rem;
+	text-align: center;
+}
+h3
+{
+	font-size: 1.3rem;
+	text-align: center;
+}
+input[type=text],input[type=number],input[type=date],input[type=email]{
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-color: #5C5858;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #25383C;
+  padding: 20px;
+}
+
+.sect1 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.sect2 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .sect1, .sect2, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+form button {
+ align-items: center;
+ background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+ border: 0;
+ border-radius: 8px;
+ box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+ box-sizing: border-box;
+ color: #FFFFFF;
+ display: flex;
+ font-family: Phantomsans, sans-serif;
+ font-size: 18px;
+ justify-content: center;
+ line-height: 1em;
+ max-width: 100%;
+ min-width: 140px;
+ padding: 3px;
+ text-decoration: none;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ white-space: nowrap;
+ cursor: pointer;
+ transition: all .3s;
+ position: relative;
+ left: 85px;
+}
+
+form button:active,
+form button:hover {
+ outline: 0;
+}
+
+form button span {
+ background-color: rgb(5, 6, 45);
+ padding: 16px 24px;
+ border-radius: 6px;
+ width: 100%;
+ height: 100%;
+ transition: 300ms;
+}
+
+form button:hover span {
+ background: none;
+}
+
+form button:active {
+ transform: scale(0.9);
+}

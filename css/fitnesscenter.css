@@ -1,0 +1,80 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	outline: 0;
+	box-sizing: border-box;
+	transition: all 0.2s linear;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: "Trebuchet MS", sans-serif;
+	background-color: #25383C;
+}
+.class
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 7rem 8rem;
+}
+.class h2
+{
+	font-size: 2.3rem;
+	color: #fff;
+	font-weight: 600;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.class .item1 .people1
+{
+	border: 1px solid black;
+	width: 30%;
+	height: auto;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.031),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+;
+}
+.class .item1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.class .item1 .people1 .image img
+{
+	width: 100%;
+	object-fit: cover;
+}
+.class .item1 .people1 .info
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 10px;
+	background-color: #111;
+}
+.class .item1 .people1 .info .name
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.class .item1 .people1 .info .name h4
+{
+	color: #fff;
+	font-size: 1.7rem;
+}
+.class .item1 .people1 .info .profession p
+{
+	color: #6960EC;
+	font-size: 1.1rem;
+}

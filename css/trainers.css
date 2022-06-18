@@ -1,0 +1,90 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	outline: 0;
+	box-sizing: border-box;
+	transition: all 0.2s linear;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: "Trebuchet MS", sans-serif;
+}
+.train
+{
+	background: #f9f9f9;
+	padding: 8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.train .about
+{
+	width: 39%;
+
+}
+.train .about h2
+{
+	color: #111;
+	font-size: 2.1rem;
+	padding-bottom: 1.8rem;
+
+}
+.train .about p
+{
+	color: #504A4B;
+	font-size: 1.1rem;
+}
+.train .people
+{
+	width: 58%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.train .people .people1
+{
+	border: 1px solid black;
+	width: 45%;
+	height: auto;
+	box-sizing: border-box;
+	background-color: #fff;
+	box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.031),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+;
+}
+.train .people .people1 .image img
+{
+	width: 100%;
+	object-fit: cover;
+}
+.train .people .people1 .name, .train .people .people1 .pro
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.train .people .people1 .info
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 10px;
+	margin-left: 3px;
+}
+.train .people .people1 .name h4
+{	
+	color: #34282C;
+	font-size: 1.5rem;
+}
+.train .people .people1 .name p
+{
+	color: #34282C;
+}
