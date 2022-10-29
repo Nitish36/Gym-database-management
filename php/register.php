@@ -35,7 +35,7 @@ if(mysqli_query($conn,$sql))
 }
 else
 {
-	echo "Error: ".$sql."<br>".$conn->connect_error;
+	echo "User name already exists in the database";
 }
 
 include 'delete.php';
